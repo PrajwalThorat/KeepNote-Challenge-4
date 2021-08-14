@@ -1,0 +1,9 @@
+spring:
+ data:
+   mongodb:
+#     authentication-database:
+     database: noteDB
+     port: 27017
+     host: localhost
+server:
+ port: 8082
